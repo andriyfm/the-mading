@@ -1,2 +1,2 @@
-# my-blog
-My first blog using jekyll
+# The Mading
+Website pertama hasil belajar html/css di sekolahkoding.com
