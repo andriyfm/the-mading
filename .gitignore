@@ -7,7 +7,6 @@ prepros-6.config
 
 # End of https://www.gitignore.io/api/prepros
 
-# ignore jade folder
+# Ignore JADE and SASS Folder
 jade/**
-
-
+sass/**
