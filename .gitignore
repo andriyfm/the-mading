@@ -10,3 +10,6 @@ prepros-6.config
 # Ignore JADE and SASS Folder
 jade/**
 sass/**
+
+# Ignore _site folder nya jekyll
+_site
