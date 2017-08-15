@@ -13,7 +13,7 @@ h1, p {
   margin: 0; }
 
 main {
-  background-image: url("/img/main-background.jpg");
+  background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/RNURXWM3MN.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -36,7 +36,9 @@ main {
     color: white; }
     .navbar-default .navbar-nav li a:hover {
       color: white;
-      text-decoration: underline; }
+      -webkit-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+      transform: translateY(-5px); }
 
 .welcome-text {
   color: white;
@@ -52,6 +54,8 @@ main {
     margin-bottom: 20px; }
   .welcome-text p {
     letter-spacing: 0.5em; }
+  .welcome-text span {
+    text-decoration: underline; }
 
 .social-list {
   position: absolute;
