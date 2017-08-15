@@ -1,0 +1,35 @@
+extend layout.jade
+append meta
+	title The Mading
+append content
+	nav.navbar.navbar-default.navbar-fixed-top
+		.container
+			.navbar-header
+				button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+					span.sr-only Toggle navigation
+					span.icon-bar
+					span.icon-bar
+					span.icon-bar
+				a.navbar-brand(href='/') TheMading
+			#navbar.navbar-collapse.collapse
+				ul.nav.navbar-nav.navbar-right
+					li: a(href="#") Home
+					li: a(href="#") About Us
+					li: a(href="#") Projects
+
+	main
+		.container.wrapper-content
+			.welcome-text
+				h1 TheMading
+				p
+					| SEBUAH HASIL KARYA BELAJAR
+					br
+					span HTML/CSS
+					| &nbsp;DI SEKOLAHKODING.COM
+			.social-list
+				.social-item
+					i.fa.fa-facebook.fa-2x(aria-hidden="true")
+				.social-item
+					i.fa.fa-twitter.fa-2x(aria-hidden="true")
+				.social-item
+					i.fa.fa-instagram.fa-2x(aria-hidden="true")
